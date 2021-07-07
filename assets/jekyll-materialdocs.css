@@ -43,8 +43,16 @@ footer{
   padding-right: 8px;
 }
 
+code, pre {
+	word-wrap: break-word;
+	white-space: pre;
+	overflow-x: auto;
+	font-size: 0.95em;
+	line-height: 1.5;
+}
+
 /* Copied from Syntax.css (https://github.com/mojombo/tpw/blob/master/css/syntax.css) */
-.highlight  { background: #2b2b2b; }
+.highlight  { background: #b9b9b9; }
 .highlight .c { color: #ffffff; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -69,12 +77,12 @@ footer{
 .highlight .kd { font-weight: bold } /* Keyword.Declaration */
 .highlight .kp { font-weight: bold } /* Keyword.Pseudo */
 .highlight .kr { font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .kt { color: #204bcc; font-weight: bold } /* Keyword.Type */
 .highlight .m { color: #009999 } /* Literal.Number */
 .highlight .s { color: #d14 } /* Literal.String */
 .highlight .na { color: #008080 } /* Name.Attribute */
 .highlight .nb { color: #0086B3 } /* Name.Builtin */
-.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .nc { color: #3f7db7; font-weight: bold } /* Name.Class */
 .highlight .no { color: #008080 } /* Name.Constant */
 .highlight .ni { color: #800080 } /* Name.Entity */
 .highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
